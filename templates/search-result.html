@@ -1,0 +1,6 @@
+<h3>Result for the query: '{{query}}'</h3>
+Total <b>{{size}}</b> results found<br><br>
+
+	{% for p in result %}
+		{{forloop.counter}}. <a href="{{p.0}}">{{p.0}}</a> ({{p.1}})<br/>
+	{% endfor %}

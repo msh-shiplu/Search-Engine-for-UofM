@@ -1,0 +1,18 @@
+<form action="/search-result/" method="get">
+    {% csrf_token %}
+    <div style="margin-left: 30%;">
+		<table style="width: 50%;">
+		<tbody>
+			<tr>
+			  <td style="width: 100%;"><img src="http://www.memphis.edu/communications/brand/download/pillar2c.jpg" width="30%" style="margin:auto;display:block"></td>
+			</tr>
+			  <tr>
+				<td style="width: 100%;"><input style="width: 100%;" type="text" name="search_box" id="id_search_box" required maxlength="100"  /></td>
+			</tr>
+			<tr>
+				<td style="width: 100%;"><input style="margin: auto; display: block;" type="submit" value="Search" /></td>
+			</tr>
+		</tbody>
+		</table>
+	</div>
+</form>
