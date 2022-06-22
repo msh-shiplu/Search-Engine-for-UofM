@@ -39,7 +39,7 @@ marshmallow==2.13.6
 matplotlib==2.0.2
 minio==2.2.4
 mysql-connector-python-rf==2.2.2
-numpy==1.13.3
+numpy==1.22.0
 oauthlib==2.0.4
 onboard==1.2.0
 padme==1.1.1
